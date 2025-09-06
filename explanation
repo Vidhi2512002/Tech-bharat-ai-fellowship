@@ -15,9 +15,9 @@ June 2021 Domestic Consumption Data from the Telangana Open Data Portal.
 
 
  Features
-- **Agent-based modular pipeline**: ingestion → standardization → cleaning → analysis → recommendations.
-- **Automatic logging**: Each run creates a timestamped log file.
-- **Terminal-friendly summary**: Clear output for quick policy briefings.
+- Agent-based modular pipeline: ingestion → standardization → cleaning → analysis → recommendations.
+- Automatic logging: Each run creates a timestamped log file.
+- Terminal-friendly summary: Clear output for quick policy briefings.
 
 ---
 
