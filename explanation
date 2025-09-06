@@ -1,0 +1,41 @@
+# Telangana RTGS – Domestic Energy Consumption Analyzer
+
+## Mission
+Prototype a **Real-Time Governance System (RTGS)** that converts Telangana Open Data into **standardized, cleaned, and actionable evidence** for policymakers. This project provides a **command-line-first pipeline** to analyze electricity consumption data and surface clear insights.
+
+## Objective
+Create a **CLI-first agentic system** that:
+- Ingests open government data
+- Cleans and standardizes it for analysis
+- Generates terminal-ready insights
+- Produces policy-oriented recommendations
+
+> **Scope (Current Prototype):**  
+> June 2021 Domestic Consumption Data from the Telangana Open Data Portal.
+
+---
+
+## Features
+- **Agent-based modular pipeline**: ingestion → standardization → cleaning → analysis → recommendations.
+- **Automatic logging**: Each run creates a timestamped log file.
+- **Terminal-friendly summary**: Clear output for quick policy briefings.
+
+---
+
+##  Output
+```plaintext
+TELANGANA RTGS – DOMESTIC CONSUMPTION INSIGHTS
+Scope: June 2021, Domestic Category
+Dataset Size: 14,005 records, 11 columns
+
+Main Metric: Units
+Mean: 67,676.21
+Median: 26,405.00
+
+Top Circles by Consumption:
+1. Cybercity – 180,299.09
+2. Banjara Hills – 163,746.92
+...
+
+Policy Recommendation:
+Prioritize infrastructure optimization in high-consumption zones and targeted demand-side management in low-consumption districts.
